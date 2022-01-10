@@ -20,9 +20,8 @@ if (idadeComprador >= 18 || estaAcompanhado) {
 }
 
 console.log(`Embarque: \n\n`);
-if((idadeComprador >= 18 || estaAcompanhado) && temPassagemComprada){
-    console.log("Boa viagem!")
-} else{
-    console.log("Você não pode embarcar!")
+if ((idadeComprador >= 18 || estaAcompanhado) && temPassagemComprada) {
+  console.log("Boa viagem!");
+} else {
+  console.log("Você não pode embarcar!");
 }
-
